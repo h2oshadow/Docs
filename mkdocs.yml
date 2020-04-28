@@ -1,0 +1,102 @@
+# Site Information.
+site_name: Soul Garden
+site_description: 看不到的我。
+site_author: R3ADAND
+site_url: https://ichord.top
+
+# Site repository information.
+repo_name: r3adand/docs
+repo_url: https://github.com/R3ADAND/Docs
+
+# Set the theme.
+theme:
+  name: 'material'
+  language: 'zh'
+  favicon: '/favicon.ico'
+  # UI feature.
+  feature:
+    - tabs
+    - instant
+  # Connect to custom web-app dir.
+  custom_dir: 'theme'
+  # Color
+  palette:
+    primary: indigo
+    accent: indigo
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+  
+# Extra configuration.
+  extra:
+    # Footer social icon.
+    social:
+      - type: 'home'
+        link: 'https://www.ichord.top'
+      - type: 'github'
+        link: 'https://github.com/R3ADAND/Docs'
+    # The language used for the search.
+    ## search:
+      ## language: 'jp'
+
+# Footer copyright information.
+copyright: 'Copyright &copy; 2017-2019 <a href="https://www.ichord.top" target="_black">Soul Garden</a>'
+
+# Some plugins.
+plugins:
+  - search
+  - minify:
+      minify_html: true
+      
+# Insert Google analytics code.
+## 贰〇贰〇年肆月柒日，我改变了主意，不再想让这个小站被发现了，因此禁用了谷歌统计代码。
+## google_analytics: ['', 'auto']
+
+# Introduce external css style sheets.
+extra_css:
+  ## Dark mode css file.
+  - stylesheets/dark_theme.css
+  - stylesheets/codehilite.css
+
+# Introduce external javascript.
+## extra_javascript:
+
+# Some extended functions.
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+      linenums: false
+  - toc:
+      permalink: true
+  - footnotes
+  - meta
+  - def_list
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_png
+      #emoji_generator: !!python/name:pymdownx.emoji.to_svg
+      #emoji_generator: !!python/name:pymdownx.emoji.to_png_sprite
+      #emoji_generator: !!python/name:pymdownx.emoji.to_svg_sprite
+      #emoji_generator: !!python/name:pymdownx.emoji.to_awesome
+      #emoji_generator: !!python/name:pymdownx.emoji.to_alt
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist
+  - pymdownx.tilde
+
+# Navigation configuration.
+nav:
+- 首页:
+  - 首页: 'index.md'
+- Blog:
+  - 202004:
+    - 二十四日: '/Blog/202004/20200424.md'

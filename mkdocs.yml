@@ -17,6 +17,8 @@ theme:
   feature:
     - tabs
     - instant
+  # Connect to custom web-app dir.
+  custom_dir: 'theme'
   # Color
   palette:
     primary: indigo
@@ -51,7 +53,10 @@ plugins:
 ## google_analytics: ['', 'auto']
 
 # Introduce external css style sheets.
-## extra_css:
+extra_css:
+  ## Dark mode css file.
+  - stylesheets/dark_theme.css
+  - stylesheets/codehilite.css
 
 # Introduce external javascript.
 ## extra_javascript:

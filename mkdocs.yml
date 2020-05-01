@@ -2,11 +2,11 @@
 site_name: Soul Garden
 site_description: 看不到的我。
 site_author: Firespace
-site_url: https://ichord.top
+site_url: https://imrma.top
 
 # Site repository information.
 repo_name: imrma/docs
-repo_url: https://github.com/R3ADAND/Docs
+repo_url: https://github.com/imrma/Docs
 
 # Set the theme.
 theme:
@@ -32,15 +32,15 @@ theme:
     # Footer social icon.
     social:
       - type: 'home'
-        link: 'https://www.ichord.top'
+        link: 'https://www.imrma.top'
       - type: 'github'
-        link: 'https://github.com/R3ADAND/Docs'
+        link: 'https://github.com/imrma/Docs'
     # The language used for the search.
     ## search:
       ## language: 'jp'
 
 # Footer copyright information.
-copyright: 'Copyright &copy; 2017-2019 <a href="https://www.ichord.top" target="_black">Soul Garden</a>'
+copyright: 'Copyright &copy; 2017-2019 <a href="https://www.imrma.top" target="_black">Soul Garden</a>'
 
 # Some plugins.
 plugins:
@@ -98,5 +98,6 @@ nav:
 - 首页:
   - 首页: 'index.md'
 - Blog:
-  - FKMOM:
-    - FunnyFace: '/fkmom/funnyface.md'
+  - 转到首页: 'index.md'
+- FKMOM:
+  - FunnyFace: 'Fkmom/funnyface.md'

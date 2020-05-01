@@ -1,11 +1,11 @@
 # Site Information.
 site_name: Soul Garden
 site_description: 看不到的我。
-site_author: R3ADAND
+site_author: Firespace
 site_url: https://ichord.top
 
 # Site repository information.
-repo_name: r3adand/docs
+repo_name: imrma/docs
 repo_url: https://github.com/R3ADAND/Docs
 
 # Set the theme.
@@ -98,5 +98,5 @@ nav:
 - 首页:
   - 首页: 'index.md'
 - Blog:
-  - 202004:
-    - 二十四日: '/Blog/202004/20200424.md'
+  - FKMOM:
+    - FunnyFace: '/fkmom/funnyface.md'
